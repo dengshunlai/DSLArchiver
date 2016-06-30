@@ -40,16 +40,21 @@
     student.size = CGSizeMake(3, 3);
     student.rect = CGRectMake(9, 9, 10, 10);
     
-    [student dsl_show];
+    CollegeStudent *student2 = [CollegeStudent new];
+    student2.name = @"小红";
+    student2.age = 18;
+    
+    NSArray *students = @[student,student2];
     
     //归档
-    [DSLArchiver archiveObject:student key:@"student"];
+    [DSLArchiver archiveObject:students key:@"students"];
 }
 
 - (IBAction)unarchive:(UIButton *)sender {
     //解档
-    CollegeStudent *student2 = [DSLArchiver unarchiveWithKey:@"student"];
-    [student2 dsl_show];
+    NSArray *students = [DSLArchiver unarchiveWithKey:@"students"];
+    [students[0] dsl_show];
+    [students[1] dsl_show];
 }
 
 @end
