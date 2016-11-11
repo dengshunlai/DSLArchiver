@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0CCAF91DD5F9C0008CD68B /* DSLArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0CCAF41DD5F9C0008CD68B /* DSLArchiver.m */; };
+		DD0CCAFA1DD5F9C0008CD68B /* DSLIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0CCAF61DD5F9C0008CD68B /* DSLIvar.m */; };
+		DD0CCAFB1DD5F9C0008CD68B /* NSObject+DSLCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0CCAF81DD5F9C0008CD68B /* NSObject+DSLCoding.m */; };
 		DDC8C5631D2566F1008C0E3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5621D2566F1008C0E3E /* main.m */; };
 		DDC8C5661D2566F1008C0E3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5651D2566F1008C0E3E /* AppDelegate.m */; };
 		DDC8C5691D2566F1008C0E3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5681D2566F1008C0E3E /* ViewController.m */; };
@@ -15,9 +18,6 @@
 		DDC8C5711D2566F1008C0E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC8C56F1D2566F1008C0E3E /* LaunchScreen.storyboard */; };
 		DDC8C57C1D2566F1008C0E3E /* DSLArchiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C57B1D2566F1008C0E3E /* DSLArchiverTests.m */; };
 		DDC8C5871D2566F1008C0E3E /* DSLArchiverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5861D2566F1008C0E3E /* DSLArchiverUITests.m */; };
-		DDC8C59B1D25672F008C0E3E /* DSLArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5961D25672F008C0E3E /* DSLArchiver.m */; };
-		DDC8C59C1D25672F008C0E3E /* DSLIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5981D25672F008C0E3E /* DSLIvar.m */; };
-		DDC8C59D1D25672F008C0E3E /* NSObject+DSLCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C59A1D25672F008C0E3E /* NSObject+DSLCoding.m */; };
 		DDC8C5A71D2567C3008C0E3E /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5A01D2567C3008C0E3E /* Cat.m */; };
 		DDC8C5A81D2567C3008C0E3E /* CollegeStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5A21D2567C3008C0E3E /* CollegeStudent.m */; };
 		DDC8C5A91D2567C3008C0E3E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5A41D2567C3008C0E3E /* Person.m */; };
@@ -42,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD0CCAF31DD5F9C0008CD68B /* DSLArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLArchiver.h; sourceTree = "<group>"; };
+		DD0CCAF41DD5F9C0008CD68B /* DSLArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLArchiver.m; sourceTree = "<group>"; };
+		DD0CCAF51DD5F9C0008CD68B /* DSLIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLIvar.h; sourceTree = "<group>"; };
+		DD0CCAF61DD5F9C0008CD68B /* DSLIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLIvar.m; sourceTree = "<group>"; };
+		DD0CCAF71DD5F9C0008CD68B /* NSObject+DSLCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DSLCoding.h"; sourceTree = "<group>"; };
+		DD0CCAF81DD5F9C0008CD68B /* NSObject+DSLCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DSLCoding.m"; sourceTree = "<group>"; };
 		DDC8C55E1D2566F1008C0E3E /* DSLArchiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSLArchiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC8C5621D2566F1008C0E3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDC8C5641D2566F1008C0E3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,12 +64,6 @@
 		DDC8C5821D2566F1008C0E3E /* DSLArchiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSLArchiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC8C5861D2566F1008C0E3E /* DSLArchiverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSLArchiverUITests.m; sourceTree = "<group>"; };
 		DDC8C5881D2566F1008C0E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDC8C5951D25672F008C0E3E /* DSLArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLArchiver.h; sourceTree = "<group>"; };
-		DDC8C5961D25672F008C0E3E /* DSLArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLArchiver.m; sourceTree = "<group>"; };
-		DDC8C5971D25672F008C0E3E /* DSLIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLIvar.h; sourceTree = "<group>"; };
-		DDC8C5981D25672F008C0E3E /* DSLIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLIvar.m; sourceTree = "<group>"; };
-		DDC8C5991D25672F008C0E3E /* NSObject+DSLCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DSLCoding.h"; sourceTree = "<group>"; };
-		DDC8C59A1D25672F008C0E3E /* NSObject+DSLCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DSLCoding.m"; sourceTree = "<group>"; };
 		DDC8C59F1D2567C3008C0E3E /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		DDC8C5A01D2567C3008C0E3E /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		DDC8C5A11D2567C3008C0E3E /* CollegeStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollegeStudent.h; sourceTree = "<group>"; };
@@ -99,10 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD0CCAF21DD5F9C0008CD68B /* DSLArchiver */ = {
+			isa = PBXGroup;
+			children = (
+				DD0CCAF31DD5F9C0008CD68B /* DSLArchiver.h */,
+				DD0CCAF41DD5F9C0008CD68B /* DSLArchiver.m */,
+				DD0CCAF51DD5F9C0008CD68B /* DSLIvar.h */,
+				DD0CCAF61DD5F9C0008CD68B /* DSLIvar.m */,
+				DD0CCAF71DD5F9C0008CD68B /* NSObject+DSLCoding.h */,
+				DD0CCAF81DD5F9C0008CD68B /* NSObject+DSLCoding.m */,
+			);
+			path = DSLArchiver;
+			sourceTree = SOURCE_ROOT;
+		};
 		DDC8C5551D2566F1008C0E3E = {
 			isa = PBXGroup;
 			children = (
-				DDC8C5601D2566F1008C0E3E /* DSLArchiver */,
+				DDC8C5601D2566F1008C0E3E /* DSLArchiverExample */,
 				DDC8C57A1D2566F1008C0E3E /* DSLArchiverTests */,
 				DDC8C5851D2566F1008C0E3E /* DSLArchiverUITests */,
 				DDC8C55F1D2566F1008C0E3E /* Products */,
@@ -119,11 +132,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDC8C5601D2566F1008C0E3E /* DSLArchiver */ = {
+		DDC8C5601D2566F1008C0E3E /* DSLArchiverExample */ = {
 			isa = PBXGroup;
 			children = (
+				DD0CCAF21DD5F9C0008CD68B /* DSLArchiver */,
 				DDC8C59E1D2567C3008C0E3E /* Model */,
-				DDC8C5941D25672F008C0E3E /* DSLArchiver */,
 				DDC8C5641D2566F1008C0E3E /* AppDelegate.h */,
 				DDC8C5651D2566F1008C0E3E /* AppDelegate.m */,
 				DDC8C5671D2566F1008C0E3E /* ViewController.h */,
@@ -134,7 +147,7 @@
 				DDC8C5721D2566F1008C0E3E /* Info.plist */,
 				DDC8C5611D2566F1008C0E3E /* Supporting Files */,
 			);
-			path = DSLArchiver;
+			path = DSLArchiverExample;
 			sourceTree = "<group>";
 		};
 		DDC8C5611D2566F1008C0E3E /* Supporting Files */ = {
@@ -161,19 +174,6 @@
 				DDC8C5881D2566F1008C0E3E /* Info.plist */,
 			);
 			path = DSLArchiverUITests;
-			sourceTree = "<group>";
-		};
-		DDC8C5941D25672F008C0E3E /* DSLArchiver */ = {
-			isa = PBXGroup;
-			children = (
-				DDC8C5951D25672F008C0E3E /* DSLArchiver.h */,
-				DDC8C5961D25672F008C0E3E /* DSLArchiver.m */,
-				DDC8C5971D25672F008C0E3E /* DSLIvar.h */,
-				DDC8C5981D25672F008C0E3E /* DSLIvar.m */,
-				DDC8C5991D25672F008C0E3E /* NSObject+DSLCoding.h */,
-				DDC8C59A1D25672F008C0E3E /* NSObject+DSLCoding.m */,
-			);
-			path = DSLArchiver;
 			sourceTree = "<group>";
 		};
 		DDC8C59E1D2567C3008C0E3E /* Model */ = {
@@ -322,15 +322,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC8C5691D2566F1008C0E3E /* ViewController.m in Sources */,
-				DDC8C59C1D25672F008C0E3E /* DSLIvar.m in Sources */,
 				DDC8C5A71D2567C3008C0E3E /* Cat.m in Sources */,
 				DDC8C5661D2566F1008C0E3E /* AppDelegate.m in Sources */,
-				DDC8C59D1D25672F008C0E3E /* NSObject+DSLCoding.m in Sources */,
+				DD0CCAFA1DD5F9C0008CD68B /* DSLIvar.m in Sources */,
 				DDC8C5A81D2567C3008C0E3E /* CollegeStudent.m in Sources */,
 				DDC8C5A91D2567C3008C0E3E /* Person.m in Sources */,
 				DDC8C5AA1D2567C3008C0E3E /* Student.m in Sources */,
 				DDC8C5631D2566F1008C0E3E /* main.m in Sources */,
-				DDC8C59B1D25672F008C0E3E /* DSLArchiver.m in Sources */,
+				DD0CCAF91DD5F9C0008CD68B /* DSLArchiver.m in Sources */,
+				DD0CCAFB1DD5F9C0008CD68B /* NSObject+DSLCoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DSLArchiver/Info.plist;
+				INFOPLIST_FILE = DSLArchiverExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dsl.DSLArchiver;
@@ -485,7 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DSLArchiver/Info.plist;
+				INFOPLIST_FILE = DSLArchiverExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dsl.DSLArchiver;
@@ -558,6 +558,7 @@
 				DDC8C58D1D2566F1008C0E3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDC8C58E1D2566F1008C0E3E /* Build configuration list for PBXNativeTarget "DSLArchiverTests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +567,7 @@
 				DDC8C5901D2566F1008C0E3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDC8C5911D2566F1008C0E3E /* Build configuration list for PBXNativeTarget "DSLArchiverUITests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +576,7 @@
 				DDC8C5931D2566F1008C0E3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

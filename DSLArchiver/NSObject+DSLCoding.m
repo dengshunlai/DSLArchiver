@@ -36,7 +36,7 @@
     NSArray *ivars = self.dsl_ivars;
     NSMutableString *str = @"\n".mutableCopy;
     [ivars enumerateObjectsUsingBlock:^(DSLIvar *ivar, NSUInteger idx, BOOL * stop) {
-        [str appendFormat:@"%@:%@\n",ivar.name,[self valueForKey:ivar.name]];
+        [str appendFormat:@"%@(%@) = %@\n",ivar.name,ivar.type,[self valueForKey:ivar.name]];
     }];
     NSLog(@"%@",str);
 }

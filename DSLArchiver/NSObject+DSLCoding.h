@@ -13,6 +13,9 @@
 
 @property (strong, nonatomic, readonly) NSArray<DSLIvar *> *dsl_ivars;
 
+/**
+ 打印self的全部变量，格式：变量名(类型) = 值
+ */
 - (void)dsl_show;
 
 @end

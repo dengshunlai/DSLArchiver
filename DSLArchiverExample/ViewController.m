@@ -29,13 +29,13 @@
 
 - (IBAction)archive:(UIButton *)sender {
     CollegeStudent *student = [CollegeStudent new];
-    student.age = 25;
+    student.age = 24;
     student.name = @"光子良";
     student.parents = @{@"mum":@"myMum",@"dad":@"myDad"};
     student.classmate = @[@"Tony",@"John",@"Mary"];
     Cat *cat = [[Cat alloc] init];
     cat.name = @"猫";
-    cat.age = 2;
+    cat.age = 3;
     student.pet = cat;
     student.size = CGSizeMake(3, 3);
     student.rect = CGRectMake(9, 9, 10, 10);
@@ -47,7 +47,12 @@
     NSArray *students = @[student,student2];
     
     //归档
-    [DSLArchiver archiveObject:students key:@"students"];
+    BOOL success = [DSLArchiver archiveObject:students key:@"students"];
+    if (success) {
+        NSLog(@"归档成功");
+    } else {
+        NSLog(@"失败");
+    }
 }
 
 - (IBAction)unarchive:(UIButton *)sender {
