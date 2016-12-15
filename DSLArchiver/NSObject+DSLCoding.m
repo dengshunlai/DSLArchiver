@@ -18,7 +18,9 @@
     self = [self init];
     if (self) {
         [self.dsl_ivars enumerateObjectsUsingBlock:^(DSLIvar * ivar, NSUInteger idx, BOOL * stop) {
-            [self setValue:[aDecoder decodeObjectForKey:ivar.name] forKey:ivar.name];
+            if ([aDecoder containsValueForKey:ivar.name]) {
+                [self setValue:[aDecoder decodeObjectForKey:ivar.name] forKey:ivar.name];
+            }
         }];
     }
     return self;

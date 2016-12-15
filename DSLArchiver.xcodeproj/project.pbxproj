@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD0CCAF91DD5F9C0008CD68B /* DSLArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0CCAF41DD5F9C0008CD68B /* DSLArchiver.m */; };
-		DD0CCAFA1DD5F9C0008CD68B /* DSLIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0CCAF61DD5F9C0008CD68B /* DSLIvar.m */; };
-		DD0CCAFB1DD5F9C0008CD68B /* NSObject+DSLCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0CCAF81DD5F9C0008CD68B /* NSObject+DSLCoding.m */; };
 		DDC8C5631D2566F1008C0E3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5621D2566F1008C0E3E /* main.m */; };
 		DDC8C5661D2566F1008C0E3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5651D2566F1008C0E3E /* AppDelegate.m */; };
 		DDC8C5691D2566F1008C0E3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5681D2566F1008C0E3E /* ViewController.m */; };
@@ -22,6 +19,10 @@
 		DDC8C5A81D2567C3008C0E3E /* CollegeStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5A21D2567C3008C0E3E /* CollegeStudent.m */; };
 		DDC8C5A91D2567C3008C0E3E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5A41D2567C3008C0E3E /* Person.m */; };
 		DDC8C5AA1D2567C3008C0E3E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5A61D2567C3008C0E3E /* Student.m */; };
+		DDE502611E02634F00835C1D /* DSLArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5025C1E02634F00835C1D /* DSLArchiver.m */; };
+		DDE502621E02634F00835C1D /* DSLIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5025E1E02634F00835C1D /* DSLIvar.m */; };
+		DDE502631E02634F00835C1D /* NSObject+DSLCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE502601E02634F00835C1D /* NSObject+DSLCoding.m */; };
+		DDE502651E02639100835C1D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DDE502641E02639100835C1D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DD0CCAF31DD5F9C0008CD68B /* DSLArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLArchiver.h; sourceTree = "<group>"; };
-		DD0CCAF41DD5F9C0008CD68B /* DSLArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLArchiver.m; sourceTree = "<group>"; };
-		DD0CCAF51DD5F9C0008CD68B /* DSLIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLIvar.h; sourceTree = "<group>"; };
-		DD0CCAF61DD5F9C0008CD68B /* DSLIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLIvar.m; sourceTree = "<group>"; };
-		DD0CCAF71DD5F9C0008CD68B /* NSObject+DSLCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DSLCoding.h"; sourceTree = "<group>"; };
-		DD0CCAF81DD5F9C0008CD68B /* NSObject+DSLCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DSLCoding.m"; sourceTree = "<group>"; };
 		DDC8C55E1D2566F1008C0E3E /* DSLArchiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSLArchiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC8C5621D2566F1008C0E3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDC8C5641D2566F1008C0E3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +67,13 @@
 		DDC8C5A41D2567C3008C0E3E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		DDC8C5A51D2567C3008C0E3E /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		DDC8C5A61D2567C3008C0E3E /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		DDE5025B1E02634F00835C1D /* DSLArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLArchiver.h; sourceTree = "<group>"; };
+		DDE5025C1E02634F00835C1D /* DSLArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLArchiver.m; sourceTree = "<group>"; };
+		DDE5025D1E02634F00835C1D /* DSLIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLIvar.h; sourceTree = "<group>"; };
+		DDE5025E1E02634F00835C1D /* DSLIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLIvar.m; sourceTree = "<group>"; };
+		DDE5025F1E02634F00835C1D /* NSObject+DSLCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DSLCoding.h"; sourceTree = "<group>"; };
+		DDE502601E02634F00835C1D /* NSObject+DSLCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DSLCoding.m"; sourceTree = "<group>"; };
+		DDE502641E02639100835C1D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,22 +101,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DD0CCAF21DD5F9C0008CD68B /* DSLArchiver */ = {
-			isa = PBXGroup;
-			children = (
-				DD0CCAF31DD5F9C0008CD68B /* DSLArchiver.h */,
-				DD0CCAF41DD5F9C0008CD68B /* DSLArchiver.m */,
-				DD0CCAF51DD5F9C0008CD68B /* DSLIvar.h */,
-				DD0CCAF61DD5F9C0008CD68B /* DSLIvar.m */,
-				DD0CCAF71DD5F9C0008CD68B /* NSObject+DSLCoding.h */,
-				DD0CCAF81DD5F9C0008CD68B /* NSObject+DSLCoding.m */,
-			);
-			path = DSLArchiver;
-			sourceTree = SOURCE_ROOT;
-		};
 		DDC8C5551D2566F1008C0E3E = {
 			isa = PBXGroup;
 			children = (
+				DDE502641E02639100835C1D /* README.md */,
+				DDE5025A1E02634F00835C1D /* DSLArchiver */,
 				DDC8C5601D2566F1008C0E3E /* DSLArchiverExample */,
 				DDC8C57A1D2566F1008C0E3E /* DSLArchiverTests */,
 				DDC8C5851D2566F1008C0E3E /* DSLArchiverUITests */,
@@ -135,7 +126,6 @@
 		DDC8C5601D2566F1008C0E3E /* DSLArchiverExample */ = {
 			isa = PBXGroup;
 			children = (
-				DD0CCAF21DD5F9C0008CD68B /* DSLArchiver */,
 				DDC8C59E1D2567C3008C0E3E /* Model */,
 				DDC8C5641D2566F1008C0E3E /* AppDelegate.h */,
 				DDC8C5651D2566F1008C0E3E /* AppDelegate.m */,
@@ -189,6 +179,19 @@
 				DDC8C5A61D2567C3008C0E3E /* Student.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DDE5025A1E02634F00835C1D /* DSLArchiver */ = {
+			isa = PBXGroup;
+			children = (
+				DDE5025B1E02634F00835C1D /* DSLArchiver.h */,
+				DDE5025C1E02634F00835C1D /* DSLArchiver.m */,
+				DDE5025D1E02634F00835C1D /* DSLIvar.h */,
+				DDE5025E1E02634F00835C1D /* DSLIvar.m */,
+				DDE5025F1E02634F00835C1D /* NSObject+DSLCoding.h */,
+				DDE502601E02634F00835C1D /* NSObject+DSLCoding.m */,
+			);
+			path = DSLArchiver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +261,7 @@
 				TargetAttributes = {
 					DDC8C55D1D2566F1008C0E3E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QTRV8G9WAU;
 					};
 					DDC8C5761D2566F1008C0E3E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -324,13 +328,14 @@
 				DDC8C5691D2566F1008C0E3E /* ViewController.m in Sources */,
 				DDC8C5A71D2567C3008C0E3E /* Cat.m in Sources */,
 				DDC8C5661D2566F1008C0E3E /* AppDelegate.m in Sources */,
-				DD0CCAFA1DD5F9C0008CD68B /* DSLIvar.m in Sources */,
+				DDE502621E02634F00835C1D /* DSLIvar.m in Sources */,
 				DDC8C5A81D2567C3008C0E3E /* CollegeStudent.m in Sources */,
 				DDC8C5A91D2567C3008C0E3E /* Person.m in Sources */,
 				DDC8C5AA1D2567C3008C0E3E /* Student.m in Sources */,
 				DDC8C5631D2566F1008C0E3E /* main.m in Sources */,
-				DD0CCAF91DD5F9C0008CD68B /* DSLArchiver.m in Sources */,
-				DD0CCAFB1DD5F9C0008CD68B /* NSObject+DSLCoding.m in Sources */,
+				DDE502611E02634F00835C1D /* DSLArchiver.m in Sources */,
+				DDE502651E02639100835C1D /* README.md in Sources */,
+				DDE502631E02634F00835C1D /* NSObject+DSLCoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTRV8G9WAU;
 				INFOPLIST_FILE = DSLArchiverExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -485,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTRV8G9WAU;
 				INFOPLIST_FILE = DSLArchiverExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
