@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "DSLArchiver.h"
+#import "Cat.h"
 
 @interface DSLArchiverTests : XCTestCase
 
@@ -27,6 +29,38 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+}
+
+- (void)testArchive {
+    Cat *cat = [[Cat alloc] init];
+    cat.name = @"Tom";
+    cat.age = 2;
+    BOOL success = [DSLArchiver archiveObject:cat key:@"my_cat"];
+    XCTAssertTrue(success);
+}
+
+- (void)testUnarchive {
+    Cat *cat = [[Cat alloc] init];
+    cat.name = @"Avalon";
+    cat.age = 1;
+    [DSLArchiver archiveObject:cat key:@"my_cat"];
+    
+    Cat *myCat = [DSLArchiver unarchiveWithKey:@"my_cat"];
+    XCTAssertTrue([cat.name isEqualToString:myCat.name]);
+    XCTAssertEqual(cat.age, myCat.age);
+}
+
+- (void)testDelete {
+    Cat *cat = [[Cat alloc] init];
+    cat.name = @"Avalon";
+    cat.age = 1;
+    [DSLArchiver archiveObject:cat key:@"my_cat"];
+    
+    BOOL isDelete = [DSLArchiver deleteWithKey:@"my_cat"];
+    XCTAssertTrue(isDelete);
+    
+    BOOL isUnachive = [DSLArchiver unarchiveWithKey:@"my_cat"];
+    XCTAssertFalse(isUnachive);
 }
 
 - (void)testPerformanceExample {

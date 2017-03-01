@@ -24,6 +24,13 @@
     return [NSKeyedUnarchiver unarchiveObjectWithFile:path];
 }
 
++ (BOOL)deleteWithKey:(NSString *)key
+{
+    NSString *path = [self pathWithKey:key];
+    NSFileManager *fileMananger = [NSFileManager defaultManager];
+    return [fileMananger removeItemAtPath:path error:nil];
+}
+
 + (NSString *)pathWithKey:(NSString *)key
 {
     NSString *document = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
