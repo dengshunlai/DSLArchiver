@@ -5,7 +5,7 @@ Auto archive 自动归档
 你的Model不需要做任何改动。
 不需要手动实现归档协议。
 
-使用方法：
+### 使用方法：
 ```
 1.包含头文件
 #import "DSLArchiver.h"
@@ -14,3 +14,4 @@ Auto archive 自动归档
 3.解档(读取数据)
 [DSLArchiver unarchiveWithKey:@"students"];
 ```
+
