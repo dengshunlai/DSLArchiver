@@ -15,3 +15,5 @@ Auto archive 自动归档
 [DSLArchiver unarchiveWithKey:@"students"];
 ```
 
+### 支持cocoapods
+pod 'DSLArchiver'
