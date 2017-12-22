@@ -12,7 +12,7 @@ Auto archive 自动归档
 2.归档(保存数据)
 [DSLArchiver archiveObject:students key:@"students"];
 3.解档(读取数据)
-[DSLArchiver unarchiveWithKey:@"students"];
+NSArray *students = [DSLArchiver unarchiveWithKey:@"students"];
 ```
 
 ### 支持cocoapods
