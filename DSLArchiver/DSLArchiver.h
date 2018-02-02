@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSObject+DSLCoding.h"
 
 @interface DSLArchiver : NSObject
 

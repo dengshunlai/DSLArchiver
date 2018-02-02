@@ -10,6 +10,7 @@
 #import "CollegeStudent.h"
 #import "Cat.h"
 #import "DSLArchiver.h"
+#import "NSObject+DSLCoding.h"
 
 @interface ViewController ()
 
@@ -58,8 +59,8 @@
 - (IBAction)unarchive:(UIButton *)sender {
     //解档
     NSArray *students = [DSLArchiver unarchiveWithKey:@"students"];
+    
     [students[0] dsl_show];
-    [students[1] dsl_show];
 }
 
 @end

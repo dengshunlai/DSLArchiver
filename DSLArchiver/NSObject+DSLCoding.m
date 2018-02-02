@@ -83,4 +83,11 @@
     return ivars;
 }
 
+- (id)valueForUndefinedKey:(NSString *)key {
+#ifdef DEBUG
+    NSLog(@"\n%@: %@->%@",@"valueForUndefinedKey",[self class],key);
+#endif
+    return @"valueForUndefinedKey";
+}
+
 @end
