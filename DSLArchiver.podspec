@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "DSLArchiver"
-s.version      = "1.0"
+s.version      = "1.1"
 s.summary      = "数据保存方案，自动归档"
 s.homepage     = "https://github.com/dengshunlai/DSLArchiver"
 s.license      = "MIT"

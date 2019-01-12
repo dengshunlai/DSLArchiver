@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "Cat.h"
 
 @interface Person : NSObject
 {
@@ -16,7 +17,7 @@
 
 @property (strong, nonatomic) NSString *name;
 @property (assign, nonatomic) NSInteger age;
-@property (strong, nonatomic) id pet;
+@property (strong, nonatomic) Cat *pet;
 
 - (void)setParents:(NSDictionary *)parents;
 - (NSDictionary *)parents;

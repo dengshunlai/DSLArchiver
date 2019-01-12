@@ -19,7 +19,15 @@
     if (self) {
         [self.dsl_ivars enumerateObjectsUsingBlock:^(DSLIvar * ivar, NSUInteger idx, BOOL * stop) {
             if ([aDecoder containsValueForKey:ivar.name]) {
-                [self setValue:[aDecoder decodeObjectForKey:ivar.name] forKey:ivar.name];
+                //如果某个被归档的类型在解档的时候已经不存了，会引发异常
+                //在版本迭代的过程中很有可能出现这种情况，例如一个类被rename
+                @try {
+                    [self setValue:[aDecoder decodeObjectForKey:ivar.name] forKey:ivar.name];
+                } @catch (NSException *exception) {
+                    ;
+                } @finally {
+                    ;
+                }
             }
         }];
     }

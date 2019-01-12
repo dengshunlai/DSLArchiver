@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42BDACC421E4DB5300544AD6 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5A01D2567C3008C0E3E /* Cat.m */; };
 		DDB55BF51FEA941100767FB9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DDB55BF31FEA941100767FB9 /* README.md */; };
 		DDB55BF61FEA941100767FB9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DDB55BF41FEA941100767FB9 /* LICENSE */; };
 		DDC883121FEA9B1100E7C4FA /* DSLArchiverExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC883111FEA9B1100E7C4FA /* DSLArchiverExampleTests.m */; };
@@ -16,7 +17,6 @@
 		DDC8C56C1D2566F1008C0E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC8C56A1D2566F1008C0E3E /* Main.storyboard */; };
 		DDC8C56E1D2566F1008C0E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC8C56D1D2566F1008C0E3E /* Assets.xcassets */; };
 		DDC8C5711D2566F1008C0E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC8C56F1D2566F1008C0E3E /* LaunchScreen.storyboard */; };
-		DDC8C5A71D2567C3008C0E3E /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5A01D2567C3008C0E3E /* Cat.m */; };
 		DDC8C5A81D2567C3008C0E3E /* CollegeStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5A21D2567C3008C0E3E /* CollegeStudent.m */; };
 		DDC8C5A91D2567C3008C0E3E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5A41D2567C3008C0E3E /* Person.m */; };
 		DDC8C5AA1D2567C3008C0E3E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC8C5A61D2567C3008C0E3E /* Student.m */; };
@@ -283,10 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC8C5691D2566F1008C0E3E /* ViewController.m in Sources */,
-				DDC8C5A71D2567C3008C0E3E /* Cat.m in Sources */,
 				DDC8C5661D2566F1008C0E3E /* AppDelegate.m in Sources */,
 				DDE502621E02634F00835C1D /* DSLIvar.m in Sources */,
 				DDC8C5A81D2567C3008C0E3E /* CollegeStudent.m in Sources */,
+				42BDACC421E4DB5300544AD6 /* Cat.m in Sources */,
 				DDC8C5A91D2567C3008C0E3E /* Person.m in Sources */,
 				DDC8C5AA1D2567C3008C0E3E /* Student.m in Sources */,
 				DDC8C5631D2566F1008C0E3E /* main.m in Sources */,
